@@ -5,14 +5,10 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "node server",
+    "start": "parcel",
     "build": "parcel build"
   },
-  "engines": {
-    "node": "17.9.0",
-    "npm": "8.5.5"
-  },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
   },
