@@ -5,8 +5,12 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "node server",
     "build": "parcel build"
+  },
+  "engines": {
+    "node": "17.9.0",
+    "npm": "8.5.5"
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,7 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
